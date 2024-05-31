@@ -1,0 +1,16 @@
+1 2 3
+4 5 6
+7 8 9
+
+
+PASAR A LIMPIO:
+
+0<=r<=1
+a<=s<=b
+d=m*r+n
+
+m*0+n=a  -> n=a
+m*1+n=b  ->  m+a=b -> m=b-a
+
+
+s=(b-a) * r +a ; s valdra a y b cuando r está entre 0 y 1
